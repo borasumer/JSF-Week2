@@ -1,2 +1,2 @@
 # JSF-Week2
-A blocking platform
+A blogging platform
