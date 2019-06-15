@@ -1,2 +1,2 @@
-# JSF-Week2
+# comp-2068-thursday
 A blogging platform

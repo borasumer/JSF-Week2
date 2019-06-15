@@ -1,23 +1,22 @@
 const mongoose = require('mongoose');
 
-//Our Schema
+// Our Schema
 const BlogSchema = new mongoose.Schema({
-    title: {
-        type: String,
-        required:  true
-    },
-    content: {
-        type: String,
-        required: false
-    },
-    status: {
-        type: String,
-        enum: ['DRAFT','PUBLISHED'],
-        default: 'DRAFT'
-    }
+  title: {
+    type: String,
+    required: true
+  },
+  content: {
+    type: String,
+    required: false
+  },
+  status: {
+    type: String,
+    enum: ['DRAFT', 'PUBLISHED'],
+    default: 'DRAFT'
+  }
 }, {
-    timestamps: true
+  timestamps: true
 });
 
-
-module.exports = mongoose.model('Blog',BlogSchema);
+module.exports = mongoose.model('Blog', BlogSchema);

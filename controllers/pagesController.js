@@ -1,7 +1,7 @@
- exports.show =  (req,res) => {
-    const path = (req.path === '/') ? '/home' : req.path;
+exports.show = (req, res) => {
+  // Check if our path is the root or a page
+  const path = (req.path === '/') ? `/home` : req.path;
 
-    //render the view
-
-    res.render(`pages${path}`); //views/pages/about we set it on app.js (app.set)
- }; 
+  // Render that path
+  res.render(`pages${path}`); // views/pages/about
+};

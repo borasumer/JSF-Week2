@@ -1,5 +1,5 @@
 {
-  "name": "jsf-week2",
+  "name": "comp-2068-thursday",
   "version": "1.0.0",
   "description": "A blogging platform",
   "main": "app.js",
@@ -9,18 +9,18 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/borasumer/JSF-Week2.git"
+    "url": "git+https://github.com/gcsmckinnon/comp-2068-thursday.git"
   },
-  "author": "Bora Sumer",
+  "author": "Shaun McKinnon",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/borasumer/JSF-Week2/issues"
+    "url": "https://github.com/gcsmckinnon/comp-2068-thursday/issues"
   },
-  "homepage": "https://github.com/borasumer/JSF-Week2#readme",
+  "homepage": "https://github.com/gcsmckinnon/comp-2068-thursday#readme",
   "dependencies": {
     "dotenv": "^8.0.0",
-    "express": "^4.17.1",
-    "mongoose": "^5.6.0",
+    "express": "^4.16.4",
+    "mongoose": "^5.5.11",
     "pug": "^2.0.3"
   }
 }
